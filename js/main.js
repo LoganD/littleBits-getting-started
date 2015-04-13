@@ -43,10 +43,14 @@ function setCloutBitTokensFromForm(){
 $(document).ready(function() {
   initSettingsInputs();
 
-  $('#clearSettings').on('click', function() {
+  $('#clearSettings').on('click', function(e) {
+    e.preventDefault();
     resetCloudBitTokens();
     setDeviceIDInput();
     setAccessTokenInput();
   });
-  $('#saveSettings').on('click', setCloutBitTokensFromForm());
+  $('#saveSettings').on('click', function(e) {
+    e.preventDefault();
+    setCloutBitTokensFromForm();
+  });
 });

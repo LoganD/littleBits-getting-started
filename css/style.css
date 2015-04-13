@@ -47,50 +47,51 @@ div.box {
 
 /* line 52, ../sass/style.scss */
 .rule {
-  border-bottom: 1px solid #eeeeee; }
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 10px; }
 
-/* line 57, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 #current-team-name .label {
   top: -7px;
   position: relative;
   left: 5px;
   margin-right: 5px; }
-/* line 63, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 #current-team-name .small {
   margin-top: 5px; }
 
-/* line 68, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .navbar {
   border-radius: 0px;
   background: #5f027e; }
-  /* line 71, ../sass/style.scss */
+  /* line 72, ../sass/style.scss */
   .navbar.navbar-inverse {
     background: #5f027e; }
 
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .top-margin {
   margin-top: 15px; }
 
-/* line 80, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .status {
   display: inline; }
-  /* line 82, ../sass/style.scss */
+  /* line 83, ../sass/style.scss */
   .status .small {
     display: inline; }
-  /* line 85, ../sass/style.scss */
+  /* line 86, ../sass/style.scss */
   .status input {
     display: inline; }
 
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #settings {
   padding-top: 10px; }
-  /* line 92, ../sass/style.scss */
+  /* line 93, ../sass/style.scss */
   #settings .rule {
     margin-top: 10px; }
 
-/* line 97, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 .radio-selector {
   margin-top: 10px; }
-  /* line 99, ../sass/style.scss */
+  /* line 100, ../sass/style.scss */
   .radio-selector:not(:first-child) {
     margin-bottom: 10px; }
