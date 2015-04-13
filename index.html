@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.css" media="all" rel="stylesheet">
+    <link href="css/style.css" media="all" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js'></script>
+    <script src="http://apps.littlebitscloud.cc/api-http/littleBitsAPI.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" data-target=".event-helper-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <img class="dynamic-brand" src="img/littlebits.png">
+        </div>
+        <div class="navbar-collapse collapse event-helper-collapse">
+
+        </div>
+      </div>
+    </nav>
+    <div id="page-contents">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <ul id="main-nav" class="nav nav-pills nav-justified">
+              <li class="active"><a href="#current" data-toggle="pill">Device Interation</a></li>
+              <li><a href="#settings" data-toggle="pill">Settings</a></li>
+            </ul>
+          </div>
+        </div>
+          
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 box flat-bottom bottom-pad">
+          <div class="tab-content">
+            <div class="tab-pane active" id="current">
+              <h2 class="header">Controls</h2>
+              <div class="rule"></div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <h4>Current State</h4>
+                  <div class="col-sm-2">
+                    <button id="get_device_level" class="btn btn-info">Get</button>
+                  </div>
+                  <div class="col-sm-4">
+                    <h2 class="status">
+                      <div class="small">Input Level</div>
+                      <span id="speed-ring-busts" class="label label-default">0</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <h4>Send State</h4>
+                  <div class="col-sm-2">
+                    <button id="get_device_level" class="btn btn-info">Send</button>
+                  </div>
+                  <div class="col-sm-10">
+                    <h2 class="status">
+                      <div class="small">Output Level</div>
+                      <input type="number">
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="settings">
+              <form role="form">
+                <div class="form-group">
+                  <label for="deviceID">Device ID:</label>
+                  <input id="deviceID" class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="access-token">Access Token:</label>
+                  <input id="access-token" class="form-control" placeholder="">
+                </div>
+                <button id="saveSettings" class="btn btn-success">Save Settings</button>
+                <button id="clearSettings" class="btn btn-success">Clear Settings</button>
+              </form>
+            </div>
+          </div>
+          
+      </div>
+  </div>
+  </div>
+    </div>
+  </body>
+</html>

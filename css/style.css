@@ -1,0 +1,96 @@
+/* line 5, ../sass/style.scss */
+.dynamic-brand {
+  max-height: 50px;
+  margin: 10px 0px; }
+
+/* line 10, ../sass/style.scss */
+.header {
+  margin-top: 10px; }
+
+/* line 14, ../sass/style.scss */
+#main-nav {
+  margin-bottom: 10px; }
+
+/* line 18, ../sass/style.scss */
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  background-color: #eeeeee;
+  color: #444444;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+/* line 27, ../sass/style.scss */
+div.box {
+  border-radius: 5px;
+  background-color: white;
+  border-bottom: 2px solid #cccccc;
+  border-right: 2px solid #cccccc; }
+  /* line 32, ../sass/style.scss */
+  div.box.flat-bottom {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px; }
+  /* line 36, ../sass/style.scss */
+  div.box.square {
+    border-radius: 0px; }
+  /* line 39, ../sass/style.scss */
+  div.box.bottom-pad {
+    padding-bottom: 15px; }
+  /* line 42, ../sass/style.scss */
+  div.box.top-pad {
+    padding-top: 15px; }
+
+/* line 47, ../sass/style.scss */
+.page-contents {
+  margin-top: 50px;
+  height: auto; }
+
+/* line 52, ../sass/style.scss */
+.rule {
+  border-bottom: 1px solid #eeeeee; }
+
+/* line 57, ../sass/style.scss */
+#current-team-name .label {
+  top: -7px;
+  position: relative;
+  left: 5px;
+  margin-right: 5px; }
+/* line 63, ../sass/style.scss */
+#current-team-name .small {
+  margin-top: 5px; }
+
+/* line 68, ../sass/style.scss */
+.navbar {
+  border-radius: 0px;
+  background: #5f027e; }
+  /* line 71, ../sass/style.scss */
+  .navbar.navbar-inverse {
+    background: #5f027e; }
+
+/* line 76, ../sass/style.scss */
+.top-margin {
+  margin-top: 15px; }
+
+/* line 80, ../sass/style.scss */
+.status {
+  display: inline; }
+  /* line 82, ../sass/style.scss */
+  .status .small {
+    display: inline; }
+  /* line 85, ../sass/style.scss */
+  .status input {
+    display: inline; }
+
+/* line 90, ../sass/style.scss */
+#settings {
+  padding-top: 10px; }
+  /* line 92, ../sass/style.scss */
+  #settings .rule {
+    margin-top: 10px; }
+
+/* line 97, ../sass/style.scss */
+.radio-selector {
+  margin-top: 10px; }
+  /* line 99, ../sass/style.scss */
+  .radio-selector:not(:first-child) {
+    margin-bottom: 10px; }

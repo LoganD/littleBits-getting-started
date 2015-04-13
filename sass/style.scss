@@ -1,0 +1,102 @@
+@import "compass";
+
+$box-border-color: #cccccc;
+
+.dynamic-brand {
+  max-height: 50px;
+  margin: 10px 0px;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+#main-nav {
+  margin-bottom: 10px;
+}
+
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  background-color: #eeeeee;
+  color: #444444;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+div.box {
+  border-radius: 5px;
+  background-color: white;
+  border-bottom: 2px solid $box-border-color;
+  border-right: 2px solid $box-border-color;
+  &.flat-bottom {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  &.square {
+    border-radius: 0px;
+  }
+  &.bottom-pad {
+    padding-bottom: 15px;
+  }
+  &.top-pad {
+    padding-top: 15px;
+  }
+}
+
+.page-contents {
+  margin-top: 50px;
+  height: auto;
+}
+
+.rule {
+  border-bottom: 1px solid #eeeeee;
+}
+
+#current-team-name {
+  .label {
+    top: -7px;
+    position: relative;
+    left: 5px;
+    margin-right: 5px;
+  }
+  .small {
+    margin-top: 5px;
+  }
+}
+
+.navbar {
+  border-radius: 0px;
+  background: #5f027e;
+  &.navbar-inverse {
+    background: #5f027e;
+  }
+}
+
+.top-margin {
+  margin-top: 15px;
+}
+
+.status {
+  display: inline;
+  .small {
+    display: inline;
+  }
+  input {
+    display: inline;
+  }
+}
+
+#settings {
+  padding-top: 10px;
+  .rule {
+    margin-top: 10px;
+  }
+}
+
+.radio-selector {
+  margin-top: 10px;
+  &:not(:first-child) {
+    margin-bottom: 10px;
+  }
+}
